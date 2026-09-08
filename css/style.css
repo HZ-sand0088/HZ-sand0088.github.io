@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+code,
+pre,
+body {
+    font-family: "JetBrains Mono", monospace;
+}
+
+html{
+    height: auto;
+    background: radial-gradient(ellipse at bottom, #273648 0%, #090A0F 100%);
+}
+body{
+    height: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#rainbow{
+    animation: rainbow 5s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {color:rgb(255, 0, 0);}
+    16% {color:rgb(255, 255, 0);}
+  32% {color:rgb(0, 255, 0);}
+  48% {color:rgb(0, 255, 255);}
+  64% {color:rgb(0, 0, 255);}
+  82% {color:rgb(255, 0, 255);}
+  100% {color:rgb(255, 0, 0);}
+}
+
+.spin {
+    margin: 70px;
+    width: 20%;
+    animation: mymove 20s linear infinite;
+}
+
+.spin:hover{
+    animation: mymove 0s linear infinite;
+}
+
+@keyframes mymove {
+  100% {transform: rotate(360deg);}
+}
+
+/*//// Main Elements ////*/
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    float: right;
+    width: 60%;
+    padding: 40px;
+    min-height: 100vh;
+    justify-content: center;
+    background: radial-gradient(ellipse at bottom, #3b3b3b 0%, #1b1b1b 100%);
+    border-radius: 15px 0px 0px 5px;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    padding: 10px;
+    color: white;
+}
+
+.social-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+#clean-list{
+    text-align: center;
+    list-style-type: none;
+}
+
+#internal-link:visited{
+    color: #ffffff;
+}
+
+/* Side bar (Navigation + Logo) */
+
+header {
+    position: absolute;
+    width: 200px;
+}
+
+#logo{
+    padding-top: 25px;
+    padding-left: 65px;
+}
+
+nav {
+    position: absolute;
+    top: 25vh;
+}
+
+nav ul li:hover{
+      transition: 0.2;
+}
+nav ul li{
+    width:180px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 180px;
+  background-color: black;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+  background-color: #334f79;
+}
+
+nav ul li a:hover:not(.active){
+    background-color: rgb(101, 101, 133);
+    color: white;
+    transition: 0.2s;
+}
+
+/*//// Profile ////*/
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+article ul {
+    padding-top: 10px;
+}
+
+article li p{
+    text-align: left;
+    width: 100%;
+}
+
+article p{
+    text-align: center;
+    max-width: 750px;
+}
+
+article img{
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content hr{
+    width: 50%;
+    margin: 10px;
+}
+
+/* Blog */
+
+.blog{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    height: 250px;
+    margin: 10px;
+    color: black;
+    background-color: rgb(224, 224, 224);
+}
+
+.blogs{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.blogs hr{
+    width: 50%
+}
+
+/* Dashboard */
+
+.dashboard{
+    background-color: #364f6b;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+}
+
+table, th, td {
+  border: 1px solid #29343d;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+th{
+    margin: 5px;
+}
+
+th.centertable{
+    width: 50px;
+}
+th:not(.centertable){
+    width: 250px;
+}
+
+td#even{
+    background-color: #7f9db4;
+}
+
+td#odd{
+    background-color: #e9edf1;
+}
+
+.centertable{
+    text-align: center;
+}
+
+tr{
+    height: 40px;
+    color: rgb(61, 61, 61);
+}   
