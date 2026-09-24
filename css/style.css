@@ -88,6 +88,28 @@ footer p {
     justify-content: center;
 }
 
+#social-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+#social-grid > * {
+    grid-column: span 2;
+}
+
+/* If the final row contains exactly 2 items */
+#social-grid > *:nth-last-child(2):nth-child(3n + 1) {
+    grid-column: 2 / span 2;
+}
+
+#social-buttons{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 img{
     width: 50px;
     height: 50px;
@@ -256,3 +278,35 @@ tr{
     height: 40px;
     color: rgb(61, 61, 61);
 }   
+
+
+
+#strength{
+    color: black;
+    background-color: #d5f5e3;
+    width: 20px;
+}
+#strength.centertable{
+    color: #1E8449;
+    width: 500px;
+}
+#weakness{
+    background-color: #fdebd0;
+}
+#weakness.centertable{
+    color: #E67E22;
+    width: 500px;
+}
+#opportunities{
+    background-color: #d6eaf8;
+}
+#opportunities.centertable{
+    color: #2E86C1;
+    width: 500px;
+}
+#threats{
+    background-color: #f4f6f7;
+}#threats.centertable{
+    color: #1B4F72;
+    width: 500px;
+}
