@@ -7,19 +7,7 @@
         <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-        <img src="/resources/logo.png" id="logo">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <li><a class="active" href="blog.html">Blog</a></li>
-                <li><a href="why-it.html">Why IT?</a></li>
-                <li><a href="mission.html">My Mission </a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php include 'elements/header.php';?>
     <main>
         <div class="blogs">
             <h1>Welcome to my Blog!</h1>
@@ -50,18 +38,6 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="footer-content">
-            <div class="social-buttons">
-                <a href="https://www.github.com/HZ-sand0088">
-                    <img src="/resources/github.svg" id="social-buttons"></span>
-                </a>
-                <a href="https://www.linkedin.com/in/quinten-van-de-sande-610018438/">
-                    <img src="/resources/linkedin.svg" id="social-buttons"></span>
-                </a>
-            </div>
-            <p>Copyright 2026 Quinten</p>
-        </div>
-    </footer>
+    <?php include 'elements/footer.php';?>
   </body>
 </html>
