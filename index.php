@@ -14,10 +14,11 @@
             <p class="spin">Here, you'll be able to see my progression, where I get stuck, what I made, and my thoughts about IT</p>
             <h2>What you'll find here?</h2>
             <ul id="clean-list">
-                <li><a href="dashboard.html" id="internal-link"><p>My progression in my first year of HBO ICT.</p></a></li>
-                <li><a href="profile.html" id="internal-link"><p>Information about myself, like my hobbies.</p></a></li>
-                <li><a href="why-it.html" id="internal-link"><p>Why I chose IT/Software Developer as my profession.</p></a></li>
-                <li><a href="blog.html" id="internal-link"><p>Be able to read my thoughts about school, IT, and it's development</p></a></li>
+                <li><a href="dashboard.php" id="internal-link"><p>My progression in my first year of HBO ICT.</p></a></li>
+                <li><a href="profile.php" id="internal-link"><p>Information about myself, like my hobbies.</p></a></li>
+                <li><a href="why-it.php" id="internal-link"><p>Why I chose IT/Software Developer as my profession.</p></a></li>
+                <li><a href="blog.php" id="internal-link"><p>Be able to read my thoughts about school, IT, and it's development</p></a></li>
+                <li><a href="future-me.php" id="internal-link"><p>Read what I'm planning for my future</p></a></li>
             </ul>
         </div>
     </main>

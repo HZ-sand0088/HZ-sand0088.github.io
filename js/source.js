@@ -9,5 +9,9 @@ function initiate(){
             a[i].classList.add("active");
             break;
         }
+        if(window.location.pathname === "/index.php" && a[i].pathname === "/"){
+            a[i].classList.add("active");
+            break;
+        }
     }
 }
