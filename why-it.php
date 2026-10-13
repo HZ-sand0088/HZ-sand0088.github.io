@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/source.js"></script>
-  </head>
-  <body>
-    <?php include 'elements/header.php';?>
-    <main>
-        <div class="main-content">
-            <h1>Waarom HBO ICT?</h1>
-            <hr>
-            <article>
-            <p>Toen ik jong was, had mijn moeder een spelcomputer gehaald, de Nintendo Wii, en dat was mijn introductie in de video game wereld. Dat leed verder af tot interesses in het hebben van een computer, en uiteindelijk, met interesses in computers, en video spellen, kwam ik uit op ICT. Toen der tijd, speelde ik veel Minecraft en kreeg ik de mogelijkheid om een server hosten samen met een vriend van mijn. Daar begon ik met het klaarzetten van plugins en configuratie bestanden, maar dat leed tot gelimiteerde vrijheid. Toen, ondekte ik een plugin voor Minecraft servers, die de eerste stap was in het programmeren, een simpele scripting taal. Daar pakte ik de smaak van progammeren en het probleemoplossen wat daar bij kijkt op. Ondertussen programmeerde thuis al een tijdje, en omdat ik nog geen diploma had, was het de perfecte keuze. Ik kon mijzelf specialiseren in een vakgebied waar ik jaren interesses in had, en ik bouwde er nog eens een toekomst van op.</p>
-            </article>
-            <hr>
-        </div>
-    </main>
-    <?php include 'elements/footer.php';?>
-  </body>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Waarom HBO ICT? | Quinten</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/source.js"></script>
+    </head>
+    <body>
+        <?php include __DIR__ . '/elements/header.php'; ?>
+        <main>
+            <div class="main-content blog-post">
+                <h1>Waarom HBO ICT?</h1>
+                <a class="back-link" href="blog.php">Terug naar het blog</a>
+                <article>
+                    <p class="article-text">
+                        Mijn interesse in ICT begon al op jonge leeftijd, toen mijn moeder een Nintendo Wii kocht voor onze familie.
+                        Hierdoor raakte ik geïnteresseerd in videogames en later ook in computers.
+                    </p>
+                    <p class="article-text">
+                        Uiteindelijk begon ik Minecraft te spelen, waar ik de kans kreeg om mee te helpen met het beheren van een server.
+                        Hierdoor werd ik nieuwsgierig naar hoe plugins werkten en begon ik zelf plugins te maken.
+                        Eerst deed ik dit met een scriptingtaal, maar later stapte ik over naar Java,
+                        omdat ik merkte dat bestaande plugins en scriptingtalen mij niet genoeg vrijheid gaven om mijn eigen ideeën uit te werken.
+                        Dit was mijn eerste ervaring met programmeren. Sindsdien ben ik me steeds meer gaan verdiepen in softwareontwikkeling.
+                    </p>
+                    <p class="article-text">
+                        Tijdens mijn HBO-ICT-opleiding wil ik beter leren programmeren en leren hoe ik grotere projecten op een overzichtelijke en gestructureerde manier kan aanpakken.
+                        Ook wil ik meer ervaring opdoen met het samenwerken aan projecten.
+                    </p>
+                    <p class="article-text">
+                        Binnen de HBO-ICT-opleiding wil ik graag de richting Software Engineer kiezen, omdat deze het beste aansluit bij mijn interesses en ervaring met programmeren.
+                        In de toekomst wil ik graag als software developer werken. Daarnaast lijkt het me leuk om in mijn vrije tijd aan eigen gameprojecten te werken.
+                        Ik vind het leuk om te programmeren, creatieve oplossingen te bedenken en mijn eigen ideeën werkelijkheid te maken.
+                    </p>
+                </article>
+            </div>
+        </main>
+        <?php include __DIR__ . '/elements/footer.php'; ?>
+    </body>
 </html>

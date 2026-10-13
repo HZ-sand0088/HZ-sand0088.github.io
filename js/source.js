@@ -1,17 +1,15 @@
-window.addEventListener("DOMContentLoaded", initiate);
-
-
-function initiate(){
+window.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector("nav");
-    const a = nav.querySelectorAll("a");
-    for(let i = 0; i < a.length; i++){
-        if(a[i].pathname === window.location.pathname){
-            a[i].classList.add("active");
-            break;
-        }
-        if(window.location.pathname === "/index.php" && a[i].pathname === "/"){
-            a[i].classList.add("active");
-            break;
+    if (!nav) return;
+
+    const page = window.location.pathname.split("/").pop() || "index.php";
+    const blogPages = ["why-it.php", "mission.php", "future-me.php"];
+    const activePage = blogPages.includes(page) ? "blog.php" : page;
+
+    for (const link of nav.querySelectorAll("a")) {
+        if (link.getAttribute("href") === activePage) {
+            link.classList.add("active");
+            link.setAttribute("aria-current", blogPages.includes(page) ? "true" : "page");
         }
     }
-}
+});

@@ -1,104 +1,108 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/source.js"></script>
-  </head>
-  <body>
-    <?php include 'elements/header.php';?>
-    <main>
-        <div class="main-content">
-            <h1>My Dashboard</h1>
-            <table>
-                <tr class="dashboard">
-                    <th class="centertable">Quarter</th>
-                    <th>Course</th>
-                    <th class="centertable">EC</th>
-                    <th>Exam</th>
-                    <th class="centertable">Grade</th>
-                </tr>
-                <tr>
-                    <td rowspan="4" class="centertable" id="even">B1</td>
-                    <td id="even">CU75101V1</td>
-                    <td class="centertable" id="even">5</td>
-                    <td id="even">Assignment</td>
-                    <td class="centertable" id="even">-</td>
-                </tr>
-                <tr>
-                    <td id="odd">CU75102V1</td>
-                    <td class="centertable" id="odd">5</td>
-                    <td id="odd">Assignment</td>
-                    <td class="centertable" id="odd">-</td>
-                </tr>
-                <tr>
-                    <td id="even">CU75103V1</td>
-                    <td class="centertable" id="even">5</td>
-                    <td id="even">Written Test</td>
-                    <td class="centertable" id="even">-</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" id="odd">CU75104V1</td>
-                    <td rowspan="2" class="centertable" id="odd">5</td>
-                    <td rowspan="2" id="odd">Assignment</td>
-                    <td rowspan="2" class="centertable" id="odd">-</td>
-                </tr>
-                <tr>
-                    <td rowspan="3" class="centertable" id="odd">B2</td>
-                </tr>
-                <tr>
-                    <td id="even">CU75105V1</td>
-                    <td class="centertable" id="even">5</td>
-                    <td id="even">Assignment</td>
-                    <td class="centertable" id="even">-</td>
-                </tr>
-                <tr>
-                    <td id="odd">CU75106V1</td>
-                    <td class="centertable" id="odd">5</td>
-                    <td id="odd">Portfolio</td>
-                    <td class="centertable" id="odd">-</td>
-                </tr>
-                <tr>
-                    <td rowspan="3" class="centertable" id="even">B3</td>
-                    <td id="even">CU75107V1</td>
-                    <td class="centertable" id="even">5</td>
-                    <td id="even">Assignment</td>
-                    <td class="centertable" id="even">-</td>
-                </tr>
-                <tr>
-                    <td id="odd">CU75108V1</td>
-                    <td class="centertable" id="odd">5</td>
-                    <td id="odd">Assignment</td>
-                    <td class="centertable" id="odd">-</td>
-                </tr>
-                <tr>
-                    <td id="even">CU75109V1</td>
-                    <td class="centertable" id="even">5</td>
-                    <td id="even">Assignment</td>
-                    <td class="centertable" id="even">-</td>
-                </tr>
-                <tr>
-                    <td rowspan="3" class="centertable" id="odd">B4</td>
-                    <td id="odd">CU75110V1</td>
-                    <td class="centertable" id="odd">5</td>
-                    <td id="odd">Assignment</td>
-                    <td class="centertable" id="odd">-</td>
-                </tr>
-                <tr>
-                    <td id="even">CU75111V1</td>
-                    <td class="centertable" id="even">5</td>
-                    <td id="even">Assignment</td>
-                    <td class="centertable" id="even">-</td>
-                </tr>
-                <tr>
-                    <td id="odd">CU75112V1</td>
-                    <td class="centertable" id="odd">5</td>
-                    <td id="odd">Portfolio</td>
-                    <td class="centertable" id="odd">-</td>
-                </tr>
-            </table>
-        </div>
-    </main>
-    <?php include 'elements/footer.php';?>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Dashboard | Quinten</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/source.js" defer></script>
+    </head>
+    <body>
+        <?php include __DIR__ . '/elements/header.php'; ?>
+        <main>
+            <div class="main-content">
+                <h1>My Dashboard</h1>
+                <div class="table-scroll" role="region" aria-label="Study progress" tabindex="0">
+                    <table class="progress-table">
+                        <tr class="dashboard">
+                            <th scope="col" class="centertable">Quarter</th>
+                            <th scope="col">Course</th>
+                            <th scope="col" class="centertable">EC</th>
+                            <th scope="col">Exam</th>
+                            <th scope="col" class="centertable">Grade</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="4" class="centertable even">B1</td>
+                            <td class="even">CU75101V1</td>
+                            <td class="centertable even">5</td>
+                            <td class="even">Assignment</td>
+                            <td class="centertable even">-</td>
+                        </tr>
+                        <tr>
+                            <td class="odd">CU75102V1</td>
+                            <td class="centertable odd">5</td>
+                            <td class="odd">Assignment</td>
+                            <td class="centertable odd">-</td>
+                        </tr>
+                        <tr>
+                            <td class="even">CU75103V1</td>
+                            <td class="centertable even">5</td>
+                            <td class="even">Written Test</td>
+                            <td class="centertable even">-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="odd">CU75104V1</td>
+                            <td rowspan="2" class="centertable odd">5</td>
+                            <td rowspan="2" class="odd">Assignment</td>
+                            <td rowspan="2" class="centertable odd">-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="centertable odd">B2</td>
+                        </tr>
+                        <tr>
+                            <td class="even">CU75105V1</td>
+                            <td class="centertable even">5</td>
+                            <td class="even">Assignment</td>
+                            <td class="centertable even">-</td>
+                        </tr>
+                        <tr>
+                            <td class="odd">CU75106V1</td>
+                            <td class="centertable odd">5</td>
+                            <td class="odd">Portfolio</td>
+                            <td class="centertable odd">-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="centertable even">B3</td>
+                            <td class="even">CU75107V1</td>
+                            <td class="centertable even">5</td>
+                            <td class="even">Assignment</td>
+                            <td class="centertable even">-</td>
+                        </tr>
+                        <tr>
+                            <td class="odd">CU75108V1</td>
+                            <td class="centertable odd">5</td>
+                            <td class="odd">Assignment</td>
+                            <td class="centertable odd">-</td>
+                        </tr>
+                        <tr>
+                            <td class="even">CU75109V1</td>
+                            <td class="centertable even">5</td>
+                            <td class="even">Assignment</td>
+                            <td class="centertable even">-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="centertable odd">B4</td>
+                            <td class="odd">CU75110V1</td>
+                            <td class="centertable odd">5</td>
+                            <td class="odd">Assignment</td>
+                            <td class="centertable odd">-</td>
+                        </tr>
+                        <tr>
+                            <td class="even">CU75111V1</td>
+                            <td class="centertable even">5</td>
+                            <td class="even">Assignment</td>
+                            <td class="centertable even">-</td>
+                        </tr>
+                        <tr>
+                            <td class="odd">CU75112V1</td>
+                            <td class="centertable odd">5</td>
+                            <td class="odd">Portfolio</td>
+                            <td class="centertable odd">-</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <?php include __DIR__ . '/elements/footer.php'; ?>
+    </body>
 </html>
