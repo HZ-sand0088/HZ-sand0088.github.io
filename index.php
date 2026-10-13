@@ -9,7 +9,7 @@
     <?php include 'elements/header.php';?>
     <main>
         <div class="main-content">
-            <h1>My Portfolio</h1>
+            <h1>Mijn Portfolio</h1>
             <p>But this isn't just any kind of portfolio.. This is an<p id="rainbow">IT portfolio!</p> </p>
             <p class="spin">Here, you'll be able to see my progression, where I get stuck, what I made, and my thoughts about IT</p>
             <h2>What you'll find here?</h2>
