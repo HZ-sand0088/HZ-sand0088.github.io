@@ -107,11 +107,12 @@ nav a:hover:not(.active) {
 main {
     width: calc(60% + 82px);
     max-width: calc(100% - 216px);
-    margin-left: auto;
+    margin-left: 25%;
     padding: 40px;
     min-height: 100dvh;
     background: radial-gradient(ellipse at bottom, #3b3b3b 0%, #1b1b1b 100%);
     border: 1px solid #000;
+    border-bottom: 0;
     border-radius: 15px 0 0 0px;
 }
 
@@ -124,18 +125,17 @@ main {
 
 footer {
     min-height: 150px;
-    padding: 24px 16px 10px;
+    padding: 10px 16px 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background: #000;
+    background-color: #111111;
+    border-top: 1px solid #000000;
     text-align: center;
 }
 
-footer p {
-    margin-bottom: 0;
-}
+
 
 .social-buttons,
 .social-grid {
@@ -148,6 +148,11 @@ footer p {
     display: block;
     width: 50px;
     height: 50px;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover{
+    transform: translateY(-3px)
 }
 
 .clean-list {
@@ -194,6 +199,40 @@ article>img {
     margin: 10px;
     border: 0;
     border-top: 1px solid #777;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.img-grid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+    position: relative;
+}
+
+.img-grid img:hover {
+    transform: scale(1.5);
+    z-index: 10;
+}
+
+.img-grid figure {
+    margin: 0;
+}
+
+.img-grid figcaption {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #bbb;
 }
 
 .blog-post article p,

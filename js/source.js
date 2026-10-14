@@ -1,4 +1,10 @@
 window.addEventListener("DOMContentLoaded", () => {
+    setNavBarActive();
+    updateYear();
+
+});
+
+function setNavBarActive(){
     const nav = document.querySelector("nav");
     if (!nav) return;
 
@@ -12,4 +18,11 @@ window.addEventListener("DOMContentLoaded", () => {
             link.setAttribute("aria-current", blogPages.includes(page) ? "true" : "page");
         }
     }
-});
+    return;
+}
+
+function updateYear(){
+    yearfield = document.getElementById("copyright-year");
+    currentYear = new Date().getFullYear();
+    yearfield.innerHTML = currentYear;
+}

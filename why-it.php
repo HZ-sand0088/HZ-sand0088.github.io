@@ -36,7 +36,6 @@
                         Ik vind het leuk om te programmeren, creatieve oplossingen te bedenken en mijn eigen ideeën werkelijkheid te maken.
                     </p>
                 </article>
-                
             </div>
         </main>
         <?php include __DIR__ . '/elements/footer.php'; ?>

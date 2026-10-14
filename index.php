@@ -15,7 +15,7 @@
                 <h1>Mijn Portfolio</h1>
                 <p>Maar dit is niet zomaar een portfolio.. dit is een <span class="rainbow">IT portfolio!</span></p>
                 <p class="spin">Hier vertel ik over mijn verleden, mijn huidige schoolcarrière en mijn toekomstplannen. Ook deel ik mijn gedachten en ervaringen die daarbij horen.</p>
-                <h2>What you'll find here?</h2>
+                <h2>Wat kan je hier vinden?</h2>
                 <ul class="clean-list">
                     <li><a href="dashboard.php" class="internal-link"><p>Mijn voortgang in het eerste jaar van HBO-ICT op HZ</p></a></li>
                     <li><a href="profile.php" class="internal-link"><p>Informatie over wie ik ben, zoals mijn verleden en mijn hobbies.</p></a></li>
