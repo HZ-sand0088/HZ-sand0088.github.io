@@ -12,15 +12,15 @@
         <main>
             <div class="main-content">
                 <h1>Mijn Portfolio</h1>
-                <p>But this isn't just any kind of portfolio.. This is an <span class="rainbow">IT portfolio!</span></p>
-                <p class="spin">Here, you'll be able to see my progression, where I get stuck, what I made, and my thoughts about IT</p>
+                <p>Maar dit is niet zomaar een portfolio.. dit is een <span class="rainbow">IT portfolio!</span></p>
+                <p class="spin">Hier vertel ik over mijn verleden, mijn huidige schoolcarrière en mijn toekomstplannen. Ook deel ik mijn gedachten en ervaringen die daarbij horen.</p>
                 <h2>What you'll find here?</h2>
                 <ul class="clean-list">
-                    <li><a href="dashboard.php" class="internal-link"><p>My progression in my first year of HBO ICT.</p></a></li>
-                    <li><a href="profile.php" class="internal-link"><p>Information about myself, like my hobbies.</p></a></li>
-                    <li><a href="why-it.php" class="internal-link"><p>Why I chose IT/Software Developer as my profession.</p></a></li>
-                    <li><a href="blog.php" class="internal-link"><p>Be able to read my thoughts about school, IT, and it's development</p></a></li>
-                    <li><a href="future-me.php" class="internal-link"><p>Read what I'm planning for my future</p></a></li>
+                    <li><a href="dashboard.php" class="internal-link"><p>Mijn voortgang in het eerste jaar van HBO-ICT op HZ</p></a></li>
+                    <li><a href="profile.php" class="internal-link"><p>Informatie over wie ik ben, zoals mijn verleden en mijn hobbies.</p></a></li>
+                    <li><a href="why-it.php" class="internal-link"><p>Waarom ik voor HBO ICT heb gekozen als werkpad.</p></a></li>
+                    <li><a href="blog.php" class="internal-link"><p>Mijn gedachtes over mijn keuzes in beeld te kunnen brengen door mijn blog.</p></a></li>
+                    <li><a href="future-me.php" class="internal-link"><p>En mijn plannen over mijn toekomst te kunnen lezen.</p></a></li>
                 </ul>
             </div>
         </main>
