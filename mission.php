@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/resources/logo.png">
         <title>Mijn missie en SWOT-analyse | Quinten</title>
         <link href="css/style.css" rel="stylesheet">
         <script src="js/source.js" defer></script>
@@ -14,8 +15,8 @@
 
         <main>
             <div class="main-content blog-post">
-                <h1>Mijn missie en SWOT-analyse</h1>
                 <a class="back-link" href="blog.php">Terug naar het blog</a>
+                <h1>Mijn missie en SWOT-analyse</h1>
 
                 <article>
                     <p class="article-text">

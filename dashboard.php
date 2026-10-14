@@ -3,15 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>My Dashboard | Quinten</title>
+        <link rel="icon" type="image/x-icon" href="/resources/logo.png">
+        <title>Mijn dashboard | Quinten</title>
         <link href="css/style.css" rel="stylesheet">
-        <script src="js/source.js" defer></script>
+        <script src="js/source.js"></script>
     </head>
     <body>
         <?php include __DIR__ . '/elements/header.php'; ?>
         <main>
             <div class="main-content">
-                <h1>My Dashboard</h1>
+                <h1>Mijn Dashboard</h1>
                 <div class="table-scroll" role="region" aria-label="Study progress" tabindex="0">
                     <table class="progress-table">
                         <tr class="dashboard">

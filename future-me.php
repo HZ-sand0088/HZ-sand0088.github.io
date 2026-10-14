@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/resources/logo.png">
         <title>Mijn toekomst | Quinten</title>
         <link href="css/style.css" rel="stylesheet">
         <script src="js/source.js"></script>
@@ -11,8 +12,8 @@
         <?php include __DIR__ . '/elements/header.php'; ?>
         <main>
             <div class="main-content blog-post">
+              <a class="back-link" href="blog.php">Terug naar het blog</a>
                 <h1>Mijn toekomst</h1>
-                <a class="back-link" href="blog.php">Terug naar het blog</a>
                 <article>
                     <p>Over vier jaar hoop ik een baan te hebben als Software Engineer.
                         Ik wil graag werken aan programma's en websites die mensen daadwerkelijk helpen.

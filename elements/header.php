@@ -1,6 +1,6 @@
 <header>
     <img src="resources/logo.png" id="logo" alt="Quintens logo">
-    <nav aria-label="Hoofdnavigatie">
+    <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="profile.php">Profiel</a></li>
