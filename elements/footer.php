@@ -1,6 +1,6 @@
 <footer>
     <p>
-        HBO ICT Portfolio - HZ University of Applied Science
+        HBO ICT Portfolio - HZ University of Applied Sciences
     </p>
     <div class="social-buttons">
         <a href="https://www.github.com/HZ-sand0088">

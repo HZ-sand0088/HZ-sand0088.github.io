@@ -13,6 +13,10 @@
         <main>
             <div class="main-content">
                 <h1>Mijn Dashboard</h1>
+                <hr>
+                <article>
+                    <p>Hier houd ik mijn studievoortgang en behaalde studiepunten bij.</p>
+                </article>
                 <div class="table-scroll" role="region" aria-label="Study progress" tabindex="0">
                     <table class="progress-table">
                         <tr class="dashboard">

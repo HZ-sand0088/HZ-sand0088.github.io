@@ -13,6 +13,10 @@
         <main>
             <div class="main-content">
                 <h1>Blog</h1>
+                <hr>
+                <article>
+                    <p>Hier deel ik mijn ervaringen, gedachtes en reflecties tijdens mijn HBO ICT opleiding.</p>
+                </article>
                 <div class="blogs">
                     <article class="blog-card">
                         <h2>Waarom HBO ICT?</h2>

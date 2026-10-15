@@ -14,15 +14,40 @@
             <div class="main-content">
                 <h1>Mijn Portfolio</h1>
                 <p>Maar dit is niet zomaar een portfolio.. dit is een <span class="rainbow">IT portfolio!</span></p>
-                <p class="spin">Hier vertel ik over mijn verleden, mijn huidige schoolcarrière en mijn toekomstplannen. Ook deel ik mijn gedachten en ervaringen die daarbij horen.</p>
+                <p>Hier vertel ik over mijn verleden, mijn huidige schoolcarrière en mijn toekomstplannen. Ook deel ik mijn gedachten en ervaringen die daarbij horen.</p>
                 <h2>Wat kan je hier vinden?</h2>
-                <ul class="clean-list">
-                    <li><a href="dashboard.php" class="internal-link"><p>Mijn voortgang in het eerste jaar van HBO-ICT op HZ</p></a></li>
-                    <li><a href="profile.php" class="internal-link"><p>Informatie over wie ik ben, zoals mijn verleden en mijn hobbies.</p></a></li>
-                    <li><a href="why-it.php" class="internal-link"><p>Waarom ik voor HBO ICT heb gekozen als werkpad.</p></a></li>
-                    <li><a href="blog.php" class="internal-link"><p>Mijn gedachtes over mijn keuzes in beeld te kunnen brengen door mijn blog.</p></a></li>
-                    <li><a href="future-me.php" class="internal-link"><p>En mijn plannen over mijn toekomst te kunnen lezen.</p></a></li>
-                </ul>
+                <article class="img-grid">
+                    <a href="dashboard.php" class="internal-link">
+                        <h3>Mijn voortgang</h3>
+                        <p>Mijn voortgang in het eerste jaar van HBO-ICT op HZ</p>
+                        <p class="fake-link">Bekijk pagina</p>
+                    </a>
+                    <a href="profile.php" class="internal-link">
+                        <h3>Over mij</h3>
+                        <p>Informatie over wie ik ben, zoals mijn verleden en mijn hobbies.</p>
+                        <p class="fake-link">Bekijk pagina</p>
+                    </a>
+                    <a href="why-it.php" class="internal-link">
+                        <h3>Waarom ICT?</h3>
+                        <p>Waarom ik voor HBO ICT heb gekozen als werkpad.</p>
+                        <p class="fake-link">Bekijk pagina</p>
+                    </a>
+                    <a href="blog.php" class="internal-link">
+                        <h3>Mijn blog</h3>
+                        <p>Mijn gedachtes over mijn keuzes in beeld te kunnen brengen door mijn blog.</p>
+                        <p class="fake-link">Bekijk pagina</p>
+                    </a>
+                    <a href="future-me.php" class="internal-link">
+                        <h3>Mijn toekomst</h3>
+                        <p>En mijn plannen over mijn toekomst te kunnen lezen.</p>
+                        <p class="fake-link">Bekijk pagina</p>
+                    </a>
+                    <a href="mission.php" class="internal-link">
+                        <h3>Mijn missie</h3>
+                        <p>Mijn persoonlijke leerdoelen, SWOT-analyse en mijn sterke en zwakke punten.</p>
+                        <p class="fake-link">Bekijk pagina</p>
+                    </a>
+                </article>
             </div>
         </main>
         <?php include __DIR__ . '/elements/footer.php'; ?>
