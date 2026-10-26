@@ -17,7 +17,6 @@ function setNavBarActive() {
     for (const link of nav.querySelectorAll("a")) {
         if (link.getAttribute("href") === activePage) {
             link.classList.add("active");
-            link.setAttribute("aria-current", blogPages.includes(page) ? "true" : "page");
         }
     }
     return;

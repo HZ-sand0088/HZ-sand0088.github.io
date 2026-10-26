@@ -17,37 +17,42 @@
         <div class="main-content blog-post">
             <a class="back-link" href="blog.php">Terug naar het blog</a>
             <h1>Mijn missie en SWOT-analyse</h1>
-
             <article>
                 <p class="article-text">
-                    Dit jaar wil ik mezelf verder ontwikkelen als zelfstandig programmeur door technische problemen
-                    eerst zelf te onderzoeken en op te lossen.
-                    Mijn technische kennis en leergierigheid helpen mij hierbij, maar ik wil ook leren om beter samen te
-                    werken en gebruik te maken van feedback van anderen.
+                    Tijdens mijn opleiding wil ik gaan ontwikkelen als software developer, zowel technisch als
+                    persoonlijk. Ik wil leren om samen te kunnen werken en ook zelfstandig problemen op te kunnen lossen
+                    zonder gebruik van AI.
                 </p>
                 <p class="article-text">
-                    Daarnaast wil ik consistenter aan mijn projecten werken door mijn tijd beter te verdelen,
-                    prioriteiten te stellen en minder snel naar andere projecten over te stappen.
-                    Door mijn schoolwerk gestructureerd aan te pakken en voldoende tijd vrij te maken voor opdrachten,
-                    wil ik voorkomen dat mijn persoonlijke projecten ten koste gaan van mijn studie.
-                </p>
-                <p class="article-text">
-                    Zo wil ik niet alleen mijn technische vaardigheden verbeteren,
-                    maar ook de discipline en samenwerking ontwikkelen die nodig zijn om mijn HBO-ICT-opleiding
-                    succesvol af te ronden.
+                    Daarnaast wil ik ook werken aan mijn podiumangst. Ik wil mijn werk en projecten aan anderen kunnen
+                    laten zien zonder vrees te hebben om voor de klas te staan, of te presenteren voor een groep.
                 </p>
             </article>
-
+            <h2>Mijn SMART-doelen</h2>
+            <article class="img-grid">
+                <div class="internal-link">
+                    <h3>Planning en consistentie</h3>
+                    <p>Tijdens het eerste jaar wil ik mijn planning verbeteren door elke schoolavond mijn openstaande
+                        opdrachten en deadlines te controleren. Hiermee bepaal ik mijn prioriteiten voor de volgende
+                        dag. Mijn doel is om minimaal 90% van mijn opdrachten optijd af te ronden.
+                    </p>
+                </div>
+                <div class="internal-link">
+                    <h3>Podiumangst overwinnen</h3>
+                    <p>Tijdens het eerste jaar wil ik minimaal twee presentaties geven, deze vooraf minstens twee keer
+                        te
+                        oefenen en achteraf feedback vragen. Mijn doel hiermee is om mijn podiumangst geleidelijk te
+                        verminderen en met meer zelf vertrouwen te presenteren.</p>
+                </div>
+            </article>
             <h2>Mijn SWOT-analyse</h2>
-
             <article>
-                <div class="table-scroll" role="region" aria-label="SWOT-analyse" tabindex="0">
+                <div class="table-scroll">
                     <table class="swot-table">
                         <tr class="dashboard">
                             <th scope="col" class="centertable strength">Strength</th>
                             <th scope="col" class="centertable weakness">Weakness</th>
                         </tr>
-
                         <tr>
                             <td class="strength">
                                 <ul>
@@ -75,14 +80,16 @@
                                     </li>
                                 </ul>
                             </td>
-
                             <td class="weakness">
                                 <ul>
                                     <li>
                                         <p>
-                                            Planning en consistentie kunnen beter: Ik kan enthousiast aan iets
-                                            beginnen, maar het vasthouden van een vaste planning/routine is soms
-                                            lastiger voor mij.
+                                            Podiumagnst en presenteren: Ik vind het lastig om te presenteren, of dat nou
+                                            voor de klas is,
+                                            een groep vrienden die ik goed ken of op een podium met talloze mensen.
+                                            Hierdoor word ik best
+                                            zenuwachtig, raak ik de draad van mijn verhaal kwijt of probeer ik de
+                                            situatie te vermijden en verzin ik smoesjes.
                                         </p>
                                     </li>
                                     <li>
@@ -103,12 +110,10 @@
                                 </ul>
                             </td>
                         </tr>
-
                         <tr class="dashboard">
                             <th scope="col" class="centertable opportunities">Opportunities</th>
                             <th scope="col" class="centertable threats">Threats</th>
                         </tr>
-
                         <tr>
                             <td class="opportunities">
                                 <ul>
@@ -120,8 +125,11 @@
                                     </li>
                                     <li>
                                         <p>
-                                            Mijn interesses van software development, game development en 3D
-                                            geeft mij een duidelijk doel om naar toe te kunnen wikkelen.
+                                            Persoonlijke ontwikkeling: Tijdens mijn opleiding zal ik meerdere
+                                            mogelijkheden
+                                            krijgen om mijn werk te kunnen presenteren. Hierdoor kan ik regelmatig
+                                            oefenen
+                                            en daardoor mijn podiumangst te overwinnen.
                                         </p>
                                     </li>
                                     <li>
@@ -133,7 +141,6 @@
                                     </li>
                                 </ul>
                             </td>
-
                             <td class="threats">
                                 <ul>
                                     <li>
@@ -161,7 +168,6 @@
             </article>
         </div>
     </main>
-
     <?php include __DIR__ . '/elements/footer.php'; ?>
 </body>
 
