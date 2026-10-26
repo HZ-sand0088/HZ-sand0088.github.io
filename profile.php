@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="/resources/logo.png">
+    <link rel="icon" type="image/png" href="/resources/logo.png">
     <title>Wie ben ik? | Quinten</title>
     <link href="css/style.css" rel="stylesheet">
     <script src="js/source.js"></script>
@@ -58,13 +58,13 @@
             <h2>Een kijkje in mijn projecten:</h2>
             <article class="img-grid">
                 <figure>
-                <img src="resources/minecraft.png" alt="Een bouw-werk in mijn Minecraft server.">
+                <img src="resources/minecraft.png" alt="Een bouw-werk in mijn Minecraft server." loading="lazy">
                 <figcaption>
                     Een omgeving op mijn Minecraft server, gebouwt door mij.
                 </figcaption>
                 </figure>
                 <figure>
-                <img src="resources/plugin.png" alt="Een custom scherm gemaakt in Minecraft.">
+                <img src="resources/plugin.png" alt="Een custom scherm gemaakt in Minecraft." loading="lazy">
                 <figcaption>
                     Een zelfontwikkelde plugin die opgevangen vis bijhoudt.
                 </figcaption>

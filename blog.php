@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/x-icon" href="/resources/logo.png">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/resources/logo.png">
         <title>Blog | Quinten</title>
         <link href="css/style.css" rel="stylesheet">
         <script src="js/source.js"></script>
